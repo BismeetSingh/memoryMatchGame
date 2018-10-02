@@ -95,12 +95,16 @@
   },
   "xo": {
     "space": true,
-    "extends": ["plugin:vue/recommended", "plugin:import/errors"],
-    "settings": { "import/resolver": {
+    "extends": [
+      "plugin:vue/recommended",
+      "plugin:import/errors"
+    ],
+    "settings": {
+      "import/resolver": {
         "webpack": {
           "config": "build/webpack.base.conf.js"
         }
-      } 
+      }
     },
     "ignores": [
       "test/unit/karma.conf.js",

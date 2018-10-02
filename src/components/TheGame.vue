@@ -108,7 +108,7 @@ export default {
      *  @see {flipCard} for use
      */
     correctMatch(position) {
-      this.currentMessage = 'You found a match!';
+      this.currentMessage = 'Congrats .You found a match!';
       // set both of the cards to matched
       this.setCard(position, { matched: true });
       this.setCard(this.currentlyFlipped.position, { matched: true });
